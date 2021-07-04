@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info Page</title>
+  </head>
+  <body>
+    <h2>Informational field</h2>
+    <a href="index.html">home</a>
+    <a href="classes.html">classes</a>
+  <div class="container">
+    <form method="get" action="thankyou.html">
+      <fieldset>
+              <legend>Contact Information
+              </legend>
+            <label for="fname">
+              Name:
+              <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+              </label>
+            <label for="lname">
+                Last Name:
+              <input type="text" name="lname" id="lname" required placeholder="Last Name"/>
+            </label>
+            <label for="email">
+              Email:
+              <input type="text" name="email" id="email" required placeholder="yourEmail@example.com"/>
+            </label>
+            <label for="Phone">
+              Phone:
+              <input type="text" name="Phone" id="Phone"/>
+            </label>
+          </fieldset>
+          <!--surround select box within a "custom select" DIV element. and remembr to set width-->
+          <fieldset>
+            <legend>
+              Best Way to be Reached
+            </legend>
+          <div class="custom-select">
+            <select>
+              <option value="0">Phone:</option>
+              <option value="1">Email:</option>
+              <option value="2">owl</option>
+            </select>
+          </div>
+             <div>
+               <input type="radio" id="AM" name="language" value="HTML">
+               <label for="AM">AM</label>
+               <input type="radio" id="PM" name="language" value="HTML">
+               <label for="AM">PM</label>
+               </div>
+             </fieldset>
+             <fieldset>
+               <legend>
+                 Classes You're interested in taking
+               </legend>
+               <div>
+                 <input type="checkbox" id="web" name="Java" value="website">
+                 <label for="web">Cross Trainin</label>
+                 <input type="checkbox" id="CWeb" name="C" value="CWebsite">
+                 <label for="CWeb">Sprint</label>
+                 <input type="checkbox" id="WebDev" name="Web Dev" value="website">
+                 <label for="web">BodyPump</label>
+                 <input type="checkbox" id="check" name="CheckBox" value="website">
+                 <label for="check">Step interval</label>
+                 <input type="checkbox" id="system" name="system" value="website">
+                 <label for="system">Advanced Cross Training</label>
+                 <input type="checkbox" id="checkbox" name="Zumba" value="exercise">
+                 <label for="checkbox">Zumba</label>
+               </div>
+             </fieldset>
+
+               <fieldset>
+               <div>
+                <label for="aditionalInfo"></label>
+                <input type="text" id="aditionalInfo" required placeholder="Any Additional info" name="info">
+               </div>
+             </fieldset>
+              <input class="submit" type="submit" value="submit">
+        </form>
+
+      </div>
+
+  </body>
+</html>

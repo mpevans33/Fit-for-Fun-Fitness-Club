@@ -1,0 +1,37 @@
+table, td ,tr{
+  border:1px blue solid;
+
+  text-align: left;
+  align-self: center;
+  margin: 100px 50px 20px 200px; width:50%
+
+
+}
+li{
+  display: inline;
+}
+
+ body{
+   background-color: lightblue;
+   background-image:url(ColoredBackGround.jpg);
+   background-size:cover;
+   background-attachment: fixed;
+   background-blend-mode: soft-light;
+
+
+ }
+ .pill-nav{
+   color: orange;
+ }
+ li a{
+   display:block;
+   color:black;
+
+   padding:14px 16px;
+
+ }
+
+
+h1{
+  color: lightblue;
+}
